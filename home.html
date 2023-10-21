@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/def015ebdb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>AcqSys - Home</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1>-AcqSys-</h1>
+        <div class="nav__dropdown">
+          <button class="btn btn--dropdown">
+            Signed in
+            <i class="icon--dropdown fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a class="link--toYellow" href="/account-info.html">My Account</a>
+            <a id="sign-out" class="link--toYellow" href="/sign-in.html"
+              >Sign Out</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="block">
+        <div class="grid grid--main grid--1x2">
+          <section class="menu flex collapsible collapsible--expanded">
+            <ul class="menu__list collapsible-content">
+              <li class="menu__item flex" id="clickable">
+                <i id="menu__toggler" class="fa-solid fa-bars fa-2x"></i>
+              </li>
+              <li class="menu__item">
+                <a class="link--toYellow" href="/home.html">
+                  <i class="menu__icons fa-solid fa-house fa-lg"></i
+                  ><span class="item__text"> Home </span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="link--toYellow" href="/request-item.html">
+                  <i class="menu__icons fa-solid fa-pen-to-square fa-lg"></i
+                  ><span class="item__text"> Request Item </span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="link--toYellow" href="/my-requests.html">
+                  <i class="menu__icons fa-regular fa-folder fa-lg"></i
+                  ><span class="item__text"> My Requests </span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="link--toYellow" href="/notifications.html">
+                  <i
+                    id="icon_notif"
+                    class="menu__icons fa-regular fa-bell fa-lg"
+                  ></i
+                  ><span id="mightFlash" class="item__text">
+                    Notifications
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="right">
+            <section class="home">
+              <div class="welcome">
+                <header>
+                  <h2>Welcome to <span class="AcqSys">-AcqSys-</span></h2>
+                </header>
+                <h3>
+                  A procurement system designed for business teams, meant as a
+                  tool for employees to request the acquisition of software
+                  products from their supervisors/managers.
+                </h3>
+              </div>
+              <div class="container flex">
+                <div class="bubble">
+                  Just started? <br />
+                  To submit a request, click on the "Request Item" tag in the
+                  retractable menu on the left; or simply click
+                  <a href="/request-item.html">here</a>.
+                </div>
+                <!-- <div class="bubble">
+                  Special Note: <br />
+                  As additional specifications are added, new features will
+                  appear on the left menu
+                </div> -->
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/js/animations.js"></script>
+    <script src="/js/sign-out.js"></script>
+  </body>
+</html>

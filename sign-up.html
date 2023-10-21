@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/sign-in-up.css" />
+    <title>Sign-up</title>
+  </head>
+
+  <body>
+    <main>
+      <h1>-AcqSys-</h1>
+      <form
+        id="form--sign-up"
+        action="http://localhost:3000/api/users"
+        method="post"
+      >
+        <h2>Sign Up</h2>
+        <div class="field">
+          <label for="name" class="align-left">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full Name"
+            autofocus
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="email" class="align-left">Email address:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="someone@example.com"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="password" class="align-left">Set Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <input
+            type="password"
+            name="password-repeat"
+            id="password2"
+            placeholder="Repeat Password"
+            required
+          />
+        </div>
+        <div class="field">
+          <input id="supervisor" type="checkbox" name="supervisor" />
+          <label for="supervisor">Supervisor status</label>
+        </div>
+        <button type="submit" id="sign-up" form="form--sign-up">Sign Up</button>
+        <div class="small-text">
+          Already have an account? <a href="sign-in.html">Sign In</a>
+        </div>
+      </form>
+    </main>
+    <footer><p class="copyright">Copyright &#169; Ralph Elhage 2023</p></footer>
+    <script src="/js/sign-up.js"></script>
+  </body>
+</html>

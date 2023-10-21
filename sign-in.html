@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/sign-in-up.css" />
+    <title>Sign-in</title>
+  </head>
+
+  <body>
+    <main>
+      <h1>-AcqSys-</h1>
+      <form
+        id="form--sign-in"
+        action="http://localhost:3000/api/auth"
+        method="post"
+      >
+        <h2>Sign in</h2>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email address"
+          autofocus
+          autocomplete="email"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+          required
+        />
+        <div class="field">
+          <input type="checkbox" id="remember-me" name="remember-me" />
+          <label for="remember-me">Remember me</label>
+        </div>
+        <button type="submit" id="sign-in" form="form--sign-in">Sign In</button>
+        <div class="small-text">
+          You don't have an account? <a href="sign-up.html">Sign Up</a>
+        </div>
+      </form>
+    </main>
+    <footer><p class="copyright">Copyright &#169; Ralph Elhage 2023</p></footer>
+    <script src="/js/sign-in.js"></script>
+  </body>
+</html>
