@@ -42,7 +42,8 @@ MongoDB connection established successfully
 
 FRONT-END:
 
-Software: VSCode (+ extension: Live-Server)
+Software to download: 
+* VSCode (+ extension: Live-Server)
 
 From VSCode, open project folder, click on "sign-in.html" file and hit "Go Live" button at the bottom left corner of the screen.
 
