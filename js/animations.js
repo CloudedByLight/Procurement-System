@@ -1,4 +1,5 @@
 import { notifsRequest } from "./notifications.js";
+
 const userJSON = sessionStorage.getItem("user");
 const user = JSON.parse(userJSON); // parses json back to obj
 const email = user.email;

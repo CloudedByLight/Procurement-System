@@ -4,6 +4,7 @@ const btnApprove = document.getElementById("approve");
 const btnDeny = document.getElementById("deny");
 
 const userJSON = sessionStorage.getItem("user");
+if (!userJSON) window.location = "../sign-in.html"; // ensures auth
 const user = JSON.parse(userJSON); // parses json back to obj
 const email = user.email;
 
