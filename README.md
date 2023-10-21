@@ -12,7 +12,7 @@ My project is meant to demonstrate my mastery of:
 * Browser's sessionStorage
 * Form submission
 * Events
-* MongoDB
+* MongoDB & mongoose
 
 # Installation Guide
 
