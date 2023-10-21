@@ -18,8 +18,7 @@ My project is meant to demonstrate my mastery of:
 
 BACK-END:
 
-Software: 
-
+Software to download: 
 * Node.js
 * MongoDB Compass
 * mongod CLI tool
