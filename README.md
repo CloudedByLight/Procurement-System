@@ -3,7 +3,16 @@
 Full-Stack prototype designed as an alternative to CGI's Software Procurement System.
 
 My project is meant to demonstrate my mastery of:
-HTML, CSS, Javascript, Node.js, Express.js, API requests format validation (using Joi), the browser's Fetch API (CRUD operations & RESTful), sessionStorage, form submission, events, and MongoDB.
+* HTML/CSS
+* Javascript
+* Node.js
+* Express.js
+* API requests format validation (using Joi)
+* Browser's Fetch API (CRUD operations & RESTful)
+* Browser's sessionStorage
+* Form submission
+* Events
+* MongoDB
 
 # Installation Guide
 
